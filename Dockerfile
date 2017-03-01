@@ -10,6 +10,6 @@ LABEL BZComponent="$NAME" \
       Summary="Ready to use container for teaching and learning Python"
 
 RUN dnf -y --setopt=tsflags=nodocs --setopt=install_weak_deps=false \
-    install @python-classroom && dnf clean all
+    install "@python-classroom" && dnf clean all
 
 CMD ["/bin/bash"]
