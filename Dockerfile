@@ -1,7 +1,7 @@
 FROM registry.fedoraproject.org/fedora:rawhide
 LABEL MAINTAINER "Miro Hroncok <mhroncok@redhat.com>, Tomas Orsava <torsava@redhat.com>"
 
-ENV NAME=python-classroom VERSION=0.1 RELEASE=1 ARCH=
+ENV NAME=python-classroom VERSION=0.1 RELEASE=1 ARCH=noarch
 LABEL BZComponent="$NAME" \
       Name="$FGC/$NAME" \
       Version="$VERSION" \
